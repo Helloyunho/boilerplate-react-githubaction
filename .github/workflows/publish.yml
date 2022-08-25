@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Make an artifact
-        uses: upload-pages-artifact
+        uses: actions/upload-pages-artifact@v1
         with:
           path: build/
       - name: Deploy to GitHub Pages
